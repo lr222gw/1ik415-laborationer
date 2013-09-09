@@ -1,0 +1,19 @@
+{"ts":1378752844096,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1378752894714,"patch":[[{"diffs":[[1,"<!doctype html>\n<html>\n    <head>\n        \n    </head>\n    <body>\n        \n        \n    </body>\n</html>"]],"start1":0,"start2":0,"length1":0,"length2":103}]],"length":103,"saved":false}
+{"ts":1378752905865,"patch":[[{"diffs":[[0,"ad>\n        "],[1,"<meta"],[0,"\n    </head>"]],"start1":30,"start2":30,"length1":24,"length2":29}]],"length":108,"saved":false}
+{"ts":1378752913432,"patch":[[{"diffs":[[0,"l>\n<html"],[1," lang=\"sv\""],[0,">\n    <h"]],"start1":13,"start2":13,"length1":16,"length2":26}]],"length":118,"saved":false}
+{"ts":1378752926340,"patch":[[{"diffs":[[0,"   <meta"],[1,"charset=\"utf-8\""],[0,"\n    </h"]],"start1":49,"start2":49,"length1":16,"length2":31}]],"length":133,"saved":false}
+{"ts":1378752929809,"patch":[[{"diffs":[[0,"=\"utf-8\""],[1,"/>"],[0,"\n    </h"]],"start1":64,"start2":64,"length1":16,"length2":18}]],"length":135,"saved":false}
+{"ts":1378752940818,"patch":[[{"diffs":[[0,"tf-8\"/>\n"],[1,"        <title>Sidan om Lowe</title>\n"],[0,"    </he"]],"start1":67,"start2":67,"length1":16,"length2":53}]],"length":172,"saved":false}
+{"ts":1378752966428,"patch":[[{"diffs":[[0,"   <meta"],[1," "],[0,"charset="]],"start1":49,"start2":49,"length1":16,"length2":17}]],"length":173,"saved":false}
+{"ts":1378753038421,"patch":[[{"diffs":[[0,"dy>\n        "],[1,"<h1>Bloggen </h1>"],[0,"\n        \n  "]],"start1":132,"start2":132,"length1":24,"length2":41}]],"length":190,"saved":false}
+{"ts":1378753046775,"patch":[[{"diffs":[[0,"Bloggen "],[1,"som Lowe"],[0,"</h1>\n  "]],"start1":148,"start2":148,"length1":16,"length2":24}]],"length":198,"saved":false}
+{"ts":1378753054662,"patch":[[{"diffs":[[0,"som Lowe"],[1," skrev den"],[0,"</h1>\n  "]],"start1":156,"start2":156,"length1":16,"length2":26}]],"length":208,"saved":false}
+{"ts":1378753062696,"patch":[[{"diffs":[[0,"en</h1>\n"],[1,"        <h2></h2>\n"],[0,"        "]],"start1":172,"start2":172,"length1":16,"length2":34}]],"length":226,"saved":false}
+{"ts":1378753131663,"patch":[[{"diffs":[[0,"<h2>"],[-1,"</h2"],[1,"Kursbloggen</h2>\n        <h3>Första inlägget</h3>\n        <p></p"],[0,">\n  "]],"start1":188,"start2":188,"length1":12,"length2":72}]],"length":286,"saved":false}
+{"ts":1378753147417,"patch":[[{"diffs":[[0,"     <p>"],[1,"Första inlägget i min blogg där jag ska presentera mina uppgifter på"],[0,"</p>\n   "]],"start1":245,"start2":245,"length1":16,"length2":84}]],"length":354,"saved":false}
+{"ts":1378753156405,"patch":[[{"diffs":[[0,"ifter på"],[1,", kul! :)"],[0,"</p>\n   "]],"start1":313,"start2":313,"length1":16,"length2":25}]],"length":363,"saved":false}
+{"ts":1378753176934,"patch":[[{"diffs":[[0," :)</p>\n"],[1,"        <p> Skrivet av Lowe Raivi, 2013-09-09</p>\n"],[0,"        "]],"start1":327,"start2":327,"length1":16,"length2":66}]],"length":413,"saved":false}
+{"ts":1378753200381,"patch":[[{"diffs":[[0,"Lowe"],[-1," "],[1,"&nspb"],[0,"Raivi"],[1,"o"],[0,", 20"]],"start1":358,"start2":358,"length1":14,"length2":19}]],"length":418,"saved":false}
+{"ts":1378753206914,"patch":[[{"diffs":[[0,"e&ns"],[-1,"p"],[0,"b"],[1,"p"],[0,"Raiv"]],"start1":361,"start2":361,"length1":10,"length2":10}]],"length":418,"saved":false}
+{"ts":1378753215160,"patch":[[{"diffs":[[0,"v Lowe&n"],[-1,"s"],[0,"b"],[1,"s"],[0,"pRaivio,"]],"start1":356,"start2":356,"length1":18,"length2":18}]],"length":418,"saved":false}
