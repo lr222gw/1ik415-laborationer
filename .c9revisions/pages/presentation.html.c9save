@@ -358,3 +358,13 @@
 {"ts":1378770918436,"patch":[[{"diffs":[[0,"/li>"],[-1,"<p>(VARNING FÖR BLINKANDE LJUS)</p>"],[0,"\n   "]],"start1":9763,"start2":9763,"length1":43,"length2":8}]],"length":9926,"saved":false}
 {"ts":1378770927629,"patch":[[{"diffs":[[0,"Pown it</a></li>"],[1," (VARNING FÖR BLINKANDE LJUS)"],[0,"\n            <li"]],"start1":9751,"start2":9751,"length1":32,"length2":61}]],"length":9955,"saved":false}
 {"ts":1378770937001,"patch":[[{"diffs":[[0,"li> "],[-1,"(VARNING FÖR BLINKANDE LJUS)"],[0,"\n   "]],"start1":9764,"start2":9764,"length1":36,"length2":8}]],"length":9927,"saved":false}
+{"ts":1378771437400,"patch":[[{"diffs":[[0," Lowe?</h3>\n"],[1,"            \n"],[0,"            "]],"start1":533,"start2":533,"length1":24,"length2":37}]],"length":9940,"saved":false}
+{"ts":1378771815296,"patch":[[{"diffs":[[0,"h3>\n            "],[1,"<img src=\"pics/lowe.jpg\" alt=\"Lowe på bilder\" title=\"Lowe 2013\""],[0,"\n            <p>"]],"start1":541,"start2":541,"length1":32,"length2":95}]],"length":10003,"saved":false}
+{"ts":1378771821806,"patch":[[{"diffs":[[0,"we 2013\""],[1,">"],[0,"\n       "]],"start1":612,"start2":612,"length1":16,"length2":17}]],"length":10004,"saved":false}
+{"ts":1378771918698,"patch":[[{"diffs":[[0,"rc=\"pics"],[1,".."],[0,"/lowe.jp"]],"start1":563,"start2":563,"length1":16,"length2":18}]],"length":10006,"saved":false}
+{"ts":1378771929070,"patch":[[{"diffs":[[0,"rc=\"pics"],[1,"/"],[0,"../lowe."]],"start1":563,"start2":563,"length1":16,"length2":17}]],"length":10007,"saved":false}
+{"ts":1378771957389,"patch":[[{"diffs":[[0,"rc=\""],[1,"../"],[0,"pics/"],[-1,"../"],[0,"lowe"]],"start1":563,"start2":563,"length1":16,"length2":16}]],"length":10007,"saved":false}
+{"ts":1378772011362,"patch":[[{"diffs":[[0,"e 2013\">"],[1," <!--obs \"../pics/lowe.jpg\" för att först så måste man gå bakåt, sen in i pics, där finns lowe.png -->"],[0,"\n       "]],"start1":616,"start2":616,"length1":16,"length2":118}]],"length":10109,"saved":false}
+{"ts":1378772072904,"patch":[[{"diffs":[[0,"   <img "],[1,"id "],[0,"src=\"../"]],"start1":554,"start2":554,"length1":16,"length2":19}]],"length":10112,"saved":false}
+{"ts":1378772086873,"patch":[[{"diffs":[[0," <img id"],[1,"=\"lowebild"],[0," src=\".."]],"start1":556,"start2":556,"length1":16,"length2":26}]],"length":10122,"saved":false}
+{"ts":1378772122510,"patch":[[{"diffs":[[0,"lowebild"],[1,"\""],[0," src=\".."]],"start1":566,"start2":566,"length1":16,"length2":17}]],"length":10123,"saved":false}
