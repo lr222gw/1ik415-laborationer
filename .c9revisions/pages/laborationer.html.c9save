@@ -90,3 +90,6 @@
 {"ts":1378775355008,"patch":[[{"diffs":[[0,"gift 1.6"],[1," <a href=\"#andrablogg\""],[0,"</li>\n  "]],"start1":2468,"start2":2468,"length1":16,"length2":38}]],"length":2646,"saved":false}
 {"ts":1378775364683,"patch":[[{"diffs":[[0,"rablogg\""],[1,">Tryck här</a>"],[0,"</li>\n  "]],"start1":2490,"start2":2490,"length1":16,"length2":30}]],"length":2660,"saved":false}
 {"ts":1378775421792,"patch":[[{"diffs":[[0,"a href=\""],[1,"../index.html"],[0,"#andrabl"]],"start1":2478,"start2":2478,"length1":16,"length2":29}]],"length":2673,"saved":false}
+{"ts":1378778808925,"patch":[[{"diffs":[[0,"<li>"],[-1,"Video"],[1,"blogginlägg för Video taggen <a href=\"\">här</a>"],[0,"</li"]],"start1":2547,"start2":2547,"length1":13,"length2":55}]],"length":2715,"saved":false}
+{"ts":1378778815004,"patch":[[{"diffs":[[0,"    <li>"],[-1,"b"],[1,"B"],[0,"logginlä"]],"start1":2543,"start2":2543,"length1":17,"length2":17}]],"length":2715,"saved":false}
+{"ts":1378778845163,"patch":[[{"diffs":[[0,"a href=\""],[1,"../index.html#bloggvideo"],[0,"\">här</a"]],"start1":2581,"start2":2581,"length1":16,"length2":40}]],"length":2739,"saved":false}

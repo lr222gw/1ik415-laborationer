@@ -74,3 +74,39 @@
 {"ts":1378775224749,"patch":[[{"diffs":[[0,"width=\"4"],[-1,"4"],[1,"2"],[0,"0\" heigh"]],"start1":986,"start2":986,"length1":17,"length2":17}]],"length":22081,"saved":false}
 {"ts":1378775228982,"patch":[[{"diffs":[[0,"width=\"4"],[-1,"2"],[1,"4"],[0,"0\" heigh"]],"start1":986,"start2":986,"length1":17,"length2":17}]],"length":22081,"saved":false}
 {"ts":1378775264236,"patch":[[{"diffs":[[0,"     <h3"],[1," id=\"andrablogg\""],[0,">Andra i"]],"start1":920,"start2":920,"length1":16,"length2":32}]],"length":22097,"saved":false}
+{"ts":1378776386270,"patch":[[{"diffs":[[0,"en</h2>\n"],[1,"        \n        \n"],[0,"        "]],"start1":909,"start2":909,"length1":16,"length2":34}]],"length":22115,"saved":false}
+{"ts":1378776410930,"patch":[[{"diffs":[[0,"n</h2>\n        \n"],[1,"        <h3>Tredje inlägget: Video taggen</h3>\n"],[0,"        \n       "]],"start1":910,"start2":910,"length1":32,"length2":79}]],"length":22162,"saved":false}
+{"ts":1378776414373,"patch":[[{"diffs":[[0,"n</h3>\n        \n"],[1,"        \n"],[0,"        <h3 id=\""]],"start1":966,"start2":966,"length1":32,"length2":41}]],"length":22171,"saved":false}
+{"ts":1378776542760,"patch":[[{"diffs":[[0,"en</h3>\n        "],[1,"<p> Det här är en video som visas med hjälp av video taggen, videon ligger i /root/videos</p>"],[0,"\n        \n      "]],"start1":965,"start2":965,"length1":32,"length2":125}]],"length":22264,"saved":false}
+{"ts":1378777032540,"patch":[[{"diffs":[[0,"/videos</p>\n"],[1,"        <video src=\"2013-09-10 03-24-33.avi\"></video>\n"],[0,"        \n   "]],"start1":1063,"start2":1063,"length1":24,"length2":78}]],"length":22318,"saved":false}
+{"ts":1378777043496,"patch":[[{"diffs":[[0,"eo src=\""],[1,"videos/"],[0,"2013-09-"]],"start1":1087,"start2":1087,"length1":16,"length2":23}]],"length":22325,"saved":false}
+{"ts":1378777082851,"patch":[[{"diffs":[[0,"eos/"],[-1,"2013-09-10 03-24-33"],[1,"vinkar"],[0,".avi"]],"start1":1098,"start2":1098,"length1":27,"length2":14}]],"length":22312,"saved":false}
+{"ts":1378777127801,"patch":[[{"diffs":[[0,"kar.avi\""],[1," autoplay"],[0,"></video"]],"start1":1105,"start2":1105,"length1":16,"length2":25}]],"length":22321,"saved":false}
+{"ts":1378777137518,"patch":[[{"diffs":[[0,"avi\""],[-1," autoplay"],[0,"></v"]],"start1":1109,"start2":1109,"length1":17,"length2":8}]],"length":22312,"saved":false}
+{"ts":1378777170043,"patch":[[{"diffs":[[0,"kar."],[-1,"avi"],[1,"ogg"],[0,"\"></"]],"start1":1105,"start2":1105,"length1":11,"length2":11}]],"length":22312,"saved":false}
+{"ts":1378777394880,"patch":[[{"diffs":[[0,"kar.ogg\""],[1," type=\"video/ogg\""],[0,"></video"]],"start1":1105,"start2":1105,"length1":16,"length2":33}]],"length":22329,"saved":false}
+{"ts":1378777415356,"patch":[[{"diffs":[[0,"   <"],[-1,"video s"],[1,"sou"],[0,"rc"],[1,"e"],[0,"=\"vi"]],"start1":1080,"start2":1080,"length1":17,"length2":14}]],"length":22326,"saved":false}
+{"ts":1378777425425,"patch":[[{"diffs":[[0,"   <"],[-1,"sou"],[1,"video s"],[0,"rc"],[-1,"e"],[0,"=\"vi"]],"start1":1080,"start2":1080,"length1":14,"length2":17}]],"length":22329,"saved":false}
+{"ts":1378777556792,"patch":[[{"diffs":[[0,"ogg\""],[-1," type=\"video/ogg\""],[1,"></video"],[0,"></v"]],"start1":1109,"start2":1109,"length1":25,"length2":16}]],"length":22320,"saved":false}
+{"ts":1378777559616,"patch":[[{"diffs":[[0,"</video>"],[-1,"</video>"],[0,"\n       "]],"start1":1114,"start2":1114,"length1":24,"length2":16}]],"length":22312,"saved":false}
+{"ts":1378777663811,"patch":[[{"diffs":[[0,"kar.ogg\""],[1," type=\"vide/ogg\""],[0,"></video"]],"start1":1105,"start2":1105,"length1":16,"length2":32}]],"length":22328,"saved":false}
+{"ts":1378777671668,"patch":[[{"diffs":[[0,"       <"],[-1,"video"],[1,"source"],[0," src=\"vi"]],"start1":1076,"start2":1076,"length1":21,"length2":22}]],"length":22329,"saved":false}
+{"ts":1378777687102,"patch":[[{"diffs":[[0,"pe=\"vide"],[1,"o"],[0,"/ogg\"></"]],"start1":1117,"start2":1117,"length1":16,"length2":17}]],"length":22330,"saved":false}
+{"ts":1378777693760,"patch":[[{"diffs":[[0,"gg\">"],[-1,"</video>"],[0,"\n   "]],"start1":1128,"start2":1128,"length1":16,"length2":8}]],"length":22322,"saved":false}
+{"ts":1378777786911,"patch":[[{"diffs":[[0,"   <"],[-1,"source"],[1,"video"],[0," src"]],"start1":1080,"start2":1080,"length1":14,"length2":13}]],"length":22321,"saved":false}
+{"ts":1378777802890,"patch":[[{"diffs":[[0,"eo/ogg\">"],[1,"</video>"],[0,"\n       "]],"start1":1123,"start2":1123,"length1":16,"length2":24}]],"length":22329,"saved":false}
+{"ts":1378777816590,"patch":[[{"diffs":[[0,"/vinkar."],[-1,"ogg"],[1,"mp4"],[0,"\" type=\""]],"start1":1101,"start2":1101,"length1":19,"length2":19}]],"length":22329,"saved":false}
+{"ts":1378777823849,"patch":[[{"diffs":[[0,"=\"video/"],[-1,"ogg"],[1,"mp4"],[0,"\"></vide"]],"start1":1118,"start2":1118,"length1":19,"length2":19}]],"length":22329,"saved":false}
+{"ts":1378777832591,"patch":[[{"diffs":[[0,"mp4\""],[-1," type=\"video/mp4\""],[0,"></v"]],"start1":1109,"start2":1109,"length1":25,"length2":8}]],"length":22312,"saved":false}
+{"ts":1378777890969,"patch":[[{"diffs":[[0,"       <"],[-1,"video"],[1,"source"],[0," src=\"vi"]],"start1":1076,"start2":1076,"length1":21,"length2":22}]],"length":22313,"saved":false}
+{"ts":1378777945626,"patch":[[{"diffs":[[0,"/videos</p>\n"],[1,"        <video>\n"],[0,"        <sou"]],"start1":1063,"start2":1063,"length1":24,"length2":40},{"diffs":[[0,"p4\">"],[-1,"</video>"],[0,"\n   "]],"start1":1127,"start2":1127,"length1":16,"length2":8},{"diffs":[[0,"r.mp4\">\n        "],[1,"</video>"],[0,"\n        <h3 id="]],"start1":1124,"start2":1124,"length1":32,"length2":40}]],"length":22329,"saved":false}
+{"ts":1378777975659,"patch":[[{"diffs":[[0,"kar.mp4\""],[1," /"],[0,">\n      "]],"start1":1122,"start2":1122,"length1":16,"length2":18}]],"length":22331,"saved":false}
+{"ts":1378777988392,"patch":[[{"diffs":[[0,"mp4\" />\n"],[1,"        <source src=\"videos/vinkar.ogg\" />\n"],[0,"        "]],"start1":1126,"start2":1126,"length1":16,"length2":59}]],"length":22374,"saved":false}
+{"ts":1378778057752,"patch":[[{"diffs":[[0,"      <video"],[1," controls width\"500\" height=\"450\""],[0,">\n        <s"]],"start1":1077,"start2":1077,"length1":24,"length2":57}]],"length":22407,"saved":false}
+{"ts":1378778087953,"patch":[[{"diffs":[[0,"kar.ogg\" />\n"],[1,"        <source src=\"videos/vinkar.avi\" />\n"],[0,"        </vi"]],"start1":1198,"start2":1198,"length1":24,"length2":67}]],"length":22450,"saved":false}
+{"ts":1378778459075,"patch":[[{"diffs":[[0,"kar."],[-1,"mp4\" />\n        <source src=\"videos/vinkar.ogg\" />\n        <source src=\"videos/vinkar.avi"],[1,"webm"],[0,"\" />"]],"start1":1155,"start2":1155,"length1":97,"length2":12}]],"length":22365,"saved":false}
+{"ts":1378778485177,"patch":[[{"diffs":[[0,"rols"],[-1," width\"500\" height=\"450\""],[0,">\n  "]],"start1":1094,"start2":1094,"length1":32,"length2":8}]],"length":22341,"saved":false}
+{"ts":1378778495678,"patch":[[{"diffs":[[0,"controls"],[1," poste"],[0,">\n      "]],"start1":1090,"start2":1090,"length1":16,"length2":22}]],"length":22347,"saved":false}
+{"ts":1378778564485,"patch":[[{"diffs":[[0,"rols"],[-1," poste"],[0,">\n  "]],"start1":1094,"start2":1094,"length1":14,"length2":8}]],"length":22341,"saved":false}
+{"ts":1378778770715,"patch":[[{"diffs":[[0,"     <h3"],[1," id=\"\""],[0,">Tredje "]],"start1":929,"start2":929,"length1":16,"length2":22}]],"length":22347,"saved":false}
+{"ts":1378778778887,"patch":[[{"diffs":[[0,"<h3 id=\""],[1,"bloggvideo"],[0,"\">Tredje"]],"start1":934,"start2":934,"length1":16,"length2":26}]],"length":22357,"saved":false}
