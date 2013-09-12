@@ -21,7 +21,7 @@
                     <!--Här ska jag lägga in tabeller -->
             <h3>Resultat</h3>
             <!-- Detta var min tidigare tabell, jag hade visst missat att man skulle använda sig av thead,tbody och tfoot, stod inget om dem i guiden som jag läste så jag missade det (behåller koden så att jag kan gå tillbaka och kolla på den, kanske flyttar den till något tomt dokument senare.. vet att man inte ska spara onödigt mycket i kommentarer, men vill ha lite feedback på varför det är fel, etc.
-            <table border="1" height="290" width="290"><!--här skriver jag ut storleken på hela tabellen
+            <table border="1" height="290" width="290"> // här skriver jag ut storleken på hela tabellen
                 <tr height="30">
                     <td>Laboration</td>
                     <td>Uppgift</td>
@@ -29,7 +29,7 @@
                     <td>Redovisad</td>
                 </tr>
                 <tr>
-                  <td rowspan="3">1</td> <!--rowspan="3" berättar att just denna cell ska täcka 3 rader ner. 
+                  <td rowspan="3">1</td> //rowspan="3" berättar att just denna cell ska täcka 3 rader ner. 
                   <td>1</td>
                   <td>Ej bedömd</td>
                   <td>Ej redovisad</td>
@@ -84,76 +84,76 @@
             -->
             <!-- försök 2 till en table, konsonanton (hans irc namn) hjälpte mig med att förstå strukuren när man använder <table>, <thead>, <tbody>, <tr>, <td>, <tfoot> -->
             
-            <table border="1" width="300" height="280"> <!--Ser till att själva bordet har storleken av 280x300px, att ställa in storlek är troligtvis inte nödvändigt eftersom storleken anpassar sig annars efter innehållet. -->
-                <thead>Min labb tabel</thead>
-                    <tbody>
-                        <tr>
-                            <td>Laboration</td>
-                            <td>Uppgift</td>
-                            <td>Status</td>
-                            <td>Redovisad</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3">1</td>
-                            <td>1</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="6">2</td>
-                            <td>1</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        
-                    </tbody>
+            <table border="1"> <!--Ser till att själva bordet har storleken av 280x300px, att ställa in storlek är troligtvis inte nödvändigt eftersom storleken anpassar sig annars efter innehållet. ps. height och width var inte tilllåtet enligt validatorn... -->
+                <thead>  
+                    <tr>
+                        <th>Laboration</th>
+                        <th>Uppgift</th>
+                        <th>Status</th>
+                        <th>Redovisad</th>
+                    </tr>
+                </thead> <!-- Tabellen är klar men ger error, väntar på videoguider ska komma upp... EDIT, sett videorna och fixar nu felen.... -->
                 <tfoot>
                         <tr>
                             <td colspan="4"> Laborationsresultat gällande Lowe Raivio</td>
                         </tr>
                 </tfoot>
-                
+                <tbody>
+                    <tr>
+                        <td rowspan="3">1</td>
+                        <td>1</td>
+                        <td>Ej bedömd</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ej bedömd</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ej bedömd</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">2</td>
+                        <td>1</td>
+                        <td>Ej bedömd</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ej bedömd</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ej bedömd</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Ej bedömd</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Ej bedömd</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Ej bedömd</td>
+                        <td>Ej redovisad</td>
+                    </tr>
+                </tbody>
             </table>
             
         <h3 id="labb1">Laboration 1</h3>
             <ol>
                 <li>www-katalog. check</li>
                 <li>Ett första dokument</li>
+                <li>Startsidan</li>
             </ol>
         <h3 id="labb2">Laboration 2</h3>
             <p>Uppgifter:</p>
@@ -180,6 +180,8 @@
                 <li>Bilder, <a href="presentation.html#lowebild">Tryck här för att se bild på mig!</a> <a href="../pics/Sidan-om-lowe.png">Tryck här för att kolla på loggotypen</a></li>
                 <li>Blogginlägget från uppgift 1.6 <a href="../index.html#andrablogg">Tryck här</a></li>
                 <li>Blogginlägg för Video taggen <a href="../index.html#bloggvideo">här</a></li>
+                <li>Tabeller</li>
+                <li>Formulär</li>
                 
             </ol>
             
