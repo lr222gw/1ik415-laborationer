@@ -12,6 +12,46 @@
             <li><a href="kontakt.html">Kontakt</a></li> <!--obs, tänk på att a href måste ligga närmare ordet än <li>, då den ska bara påverka ordet och inte li, den ska ju vara en del av listelementet och det kan det inte vara om den står utanför <li> -->
         </ul><!--okej nu fattar jag hur man ska göra med menyn -->
         <h1>Kontakt</h1>
+        <!-- Några krav på formuläret: 
+        X * Metoden som ska användas är post 
+        X * Ett textfält finns 
+        X * En grupp med radioknappar eller kryssrutor används 
+        X * En dropdownlista finns 
+        X * En submit-knapp finns 
+        X * Fieldsets och tillhörande legend ska användas för att strukturera upp formuläret. -->
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" >
+            <fieldset>
+                <legend>Fråga</legend>
+                <label for="object">Ärendetyp</label> 
+                    <select name="dropdown" id="object">
+                        <option value="choose">Välj ett ärende</option>
+                        <option value="fråga">Fråga</option>
+                        <option value="kommentera">Kommentera</option>
+                        <option value="tipsa">Tipsa mig!</option>
+                        <option value="meet">Träffas</option>
+                        <option value="bussiness">Affärer</option>
+                        <option value="annat">Annat</option>
+                    </select>
+                    <label for="rubrik" >Rubrik</label>
+                        <input type="text" id="rubrik" autofocus/> <!--varför blir det bråk? Jo för att type inte kunde vara name.. konstigt-->
+                    <label for="mail">Din email</label>
+                        <input type="email" id="mail" />
+                    <label for="tele">Tele/mobil </label>
+                        <input type="tel" id="tele">
+                    <label for="adress">Adress</label>
+                        <input type="text" id="adress" />
+                    <label for="meddelande">Meddelande</label>
+                        <textarea id="meddelande" rows="10" cols="25"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Svar till</legend>
+                <input type="radio" name="grupp1" value="tele"/>Tele <!--</input> OBS man behöver inte sådanna hära va.. bara ha ett "/" i slutet av inpu raden..-->
+                <input type="radio" name="grupp1" value="mail"/>Mail
+                <input type="radio" name="grupp1" value="brev"/>Brev
+                
+            </fieldset>
+            <input type="submit" value="Skicka" />
+        </form>
 
         
     </body>
