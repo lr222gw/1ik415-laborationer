@@ -48,3 +48,89 @@ table {
 }
 /*Koden över är till för att min sida ska läsas likadant av alla webbläsare.. */
 /*Efter det här så kommer min kod. dvs inte denna  */
+
+#container{
+    margin: 0 auto;
+ /*   background-color: rgb(74, 151, 123); */
+   /* max-width: 940px; /*Utan denna så blir inte sidan centrerad, jag valde max-width istället för width för att hålla sidan responsiv (?)*/
+    padding: 0 15px 0 15px; /*nu har container en total bredd på totalt 970px */
+    overflow: auto;
+    margin-bottom: 34px; /*Denna är till för att min footer inte ska täcka över något..*/
+    width: 940;
+    
+}
+.blogg{
+    
+}
+
+#header{
+    margin-left: 7%;
+}
+#meny{
+   width: 140px;
+   border-width: 2px 2px 0 2px; 
+   border-color: black;
+   border-style: solid;
+   float: left;
+}
+.menyo{
+    border-bottom: 2px;
+    border-style: solid;
+ /*   background-color: rgb(190, 190, 54); */
+    padding: 3px; /*Gör det mer lättläst med mellanrum*/
+}
+#content{
+    float: left;
+    padding: 10px;
+    max-width: 82%;
+/*    background-color: red; */
+
+}
+#footer{ /*Denna kommer troligtvis att behöva ändras, den kommer troligtvis ej funka på mobila-enheter*/
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    bottom: 0px;
+    padding: 10px 45% 5px 45%;
+    border-top: 3px solid black;
+}
+
+h1 {
+    font-size: 3em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

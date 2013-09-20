@@ -3,37 +3,53 @@
     <head>
         <meta charset="utf-8"/>
         <title>Sidan om Lowe</title>
+        
     </head>
     <body>
-    <img id="loggotyp" src="pics/Sidan-om-lowe.png" alt="sidan om lowes logga" title="loggotyp" width="770"/> <!--med hjälp av height och width så kan jag ändra storleken, enklast är bara att ändra width i detta fall då det är att den är för lång, då kommer hieght automatiskt att ändras -->
-        <ul> <!--Skriver menylistan här för att jag sett att den verkar ligga överst på många sidor.. säkert bra för strukturen tänker jag -->
-            <li><a href="index.html">Start</a></li>
-            <li><a href="pages/laborationer.html">Laborationer</a></li>
-            <li><a href="pages/presentation.html">Presentation</a></li>
-            <li><a href="pages/kontakt.html">Kontakt</a></li>
-        </ul>
-        <h1>Bloggen som Lowe skrev den</h1>
-
-        <h2>Kursbloggen</h2>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <div id="container">
+            <div id="header"> <!--nu skapar jag min header box -->
+                <img id="loggotyp" src="pics/Sidan-om-lowe.png" alt="sidan om lowes logga" title="loggotyp" width="770"/> <!--med hjälp av height och width så kan jag ändra storleken, enklast är bara att ändra width i detta fall då det är att den är för lång, då kommer hieght automatiskt att ändras -->
+            </div>
+            <div id="meny">
+                <ul> <!--Skriver menylistan här för att jag sett att den verkar ligga överst på många sidor.. säkert bra för strukturen tänker jag -->
+                    <div class="menyo"><li><a href="index.html">Start</a></li></div>
+                    <div class="menyo"><li><a href="pages/laborationer.html">Laborationer</a></li></div>
+                    <div class="menyo"><li><a href="pages/presentation.html">Presentation</a></li></div>
+                    <div class="menyo"><li><a href="pages/kontakt.html">Kontakt</a></li></div>
+                </ul>
+            </div>
+            <div id="content">
+                <h1>Bloggen som Lowe skrev den</h1>
         
-        <h3 id="bloggvideo">Tredje inlägget: Video taggen</h3>
-        <p> Det här är en video som visas med hjälp av video taggen, videon ligger i /root/videos</p>
-        <video controls="controls">
-        <source src="videos/vinkar.mp4" type="video/mp4" />
-        <source src="videos/vinkar.webm" type="video/webm" />
-        <source src="videos/vinkar.ogg" type="video/ogg" />
-        <p> Din webbläsare har inte stöd för denna <code>video</code>-taggen</p>
-        </video>
-        <h3 id="andrablogg">Andra inlägget: svg bilden</h3>
-              <img src="pics/min_svg_bild.svg" alt="En bild på något som håller i en blomma" title="han håller i en blomma" />
-            
-        <p>Detta är en bild jag målade i svg-edit finns att hitta <a href="http://svg-edit.googlecode.com/svn/branches/2.6/editor/svg-editor.html" target="_blank">här</a></p>
-        <p>Skrivet av Lowe&nbsp;Raivio, 2013-09-10</p>
-        
-        <h3>Första inlägget</h3>
-        <p>Första inlägget i min blogg där jag ska presentera mina uppgifter på, kul! :)</p>
-        <p> Skrivet av Lowe&nbsp;Raivio, 2013-09-09</p>
-        <!--&nbsp måste ha ett semicolon för att fungera.. -->
-        
+                <h2>Kursbloggen</h2> <!--Funderar på om denna ska vara kvar..-->
+                
+                <div class="blogg">
+                    <h3 id="bloggvideo">Tredje inlägget: Video taggen</h3>
+                    <p> Det här är en video som visas med hjälp av video taggen, videon ligger i /root/videos</p>
+                    <video controls="controls">
+                    <source src="videos/vinkar.mp4" type="video/mp4" />
+                    <source src="videos/vinkar.webm" type="video/webm" />
+                    <source src="videos/vinkar.ogg" type="video/ogg" />
+                    <p> Din webbläsare har inte stöd för denna <code>video</code>-taggen</p>
+                    </video>
+                </div>
+                <div class="blogg">
+                    <h3 id="andrablogg">Andra inlägget: svg bilden</h3>
+                          <img src="pics/min_svg_bild.svg" alt="En bild på något som håller i en blomma" title="han håller i en blomma" />
+                    <p>Detta är en bild jag målade i svg-edit finns att hitta <a href="http://svg-edit.googlecode.com/svn/branches/2.6/editor/svg-editor.html" target="_blank">här</a></p>
+                    <p>Skrivet av Lowe&nbsp;Raivio, 2013-09-10</p>
+                </div>
+                <div class="blogg">
+                    <h3>Första inlägget</h3>
+                    <p>Första inlägget i min blogg där jag ska presentera mina uppgifter på, kul! :)</p>
+                    <p> Skrivet av Lowe&nbsp;Raivio, 2013-09-09</p>
+                    <!--&nbsp måste ha ett semicolon för att fungera.. -->
+                </div>
+            </div>
+         </div>   
+        <div id="footer"> <!--Denna tagg skriver jag utanför containern så att mitt footer alltid kan följa med -->
+            <p>Det här är min footer</p>
+        </div>
     </body>
 </html>
