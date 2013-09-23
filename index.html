@@ -3,20 +3,20 @@
     <head>
         <meta charset="utf-8"/>
         <title>Sidan om Lowe</title>
-        
+    <link rel="stylesheet" type="text/css" href="css/style.css"><!--link till stylesheet ska alltid vara i head, löste ett problem.. -->    
     </head>
     <body>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
         <div id="container">
             <div id="header"> <!--nu skapar jag min header box -->
                 <img id="loggotyp" src="pics/Sidan-om-lowe.png" alt="sidan om lowes logga" title="loggotyp" width="770"/> <!--med hjälp av height och width så kan jag ändra storleken, enklast är bara att ändra width i detta fall då det är att den är för lång, då kommer hieght automatiskt att ändras -->
             </div>
             <div id="meny">
                 <ul> <!--Skriver menylistan här för att jag sett att den verkar ligga överst på många sidor.. säkert bra för strukturen tänker jag -->
-                    <div class="menyo"><li><a href="index.html">Start</a></li></div>
-                    <div class="menyo"><li><a href="pages/laborationer.html">Laborationer</a></li></div>
-                    <div class="menyo"><li><a href="pages/presentation.html">Presentation</a></li></div>
-                    <div class="menyo"><li><a href="pages/kontakt.html">Kontakt</a></li></div>
+                    <li><div class="menyo"><a href="index.html">Start</a></div></li> <!--<div class="menyo"> behövde ligga innanför <li> -->
+                    <li><div class="menyo"><a href="pages/laborationer.html">Laborationer</a></div></li>
+                    <li><div class="menyo"><a href="pages/presentation.html">Presentation</a></div></li>
+                    <li><div class="menyo"><a href="pages/kontakt.html">Kontakt</a></div></li>
                 </ul>
             </div>
             <div id="content">

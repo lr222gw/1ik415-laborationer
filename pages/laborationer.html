@@ -3,17 +3,17 @@
     <head>
         <meta charset="utf-8" />
         <title>Laborationer - Sidan om Lowe</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
     </head>
     <body>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
         <div id="container">
         <div id="header"></div>
         <div id="meny">
             <ul>
-                <div class="menyo"><li><a href="../index.html">Start</a></li></div>
-                <div class="menyo"><li><a href="laborationer.html">Laborationer</a></li></div>
-                <div class="menyo"><li><a href="presentation.html">Presentation</a></li></div>
-                <div class="menyo"><li><a href="kontakt.html">Kontakt</a></li></div>
+                <li><div class="menyo"><a href="../index.html">Start</a></div></li>
+                <li><div class="menyo"><a href="laborationer.html">Laborationer</a></div></li>
+                <li><div class="menyo"><a href="presentation.html">Presentation</a></div></li>
+                <li><div class="menyo"><a href="kontakt.html">Kontakt</a></div></li>
             </ul>
         </div>
         <div id="content">
@@ -25,68 +25,6 @@
             </ul>
                         <!--Här ska jag lägga in tabeller -->
                 <h3>Resultat</h3>
-                <!-- Detta var min tidigare tabell, jag hade visst missat att man skulle använda sig av thead,tbody och tfoot, stod inget om dem i guiden som jag läste så jag missade det (behåller koden så att jag kan gå tillbaka och kolla på den, kanske flyttar den till något tomt dokument senare.. vet att man inte ska spara onödigt mycket i kommentarer, men vill ha lite feedback på varför det är fel, etc.
-                <table border="1" height="290" width="290"> // här skriver jag ut storleken på hela tabellen
-                    <tr height="30">
-                        <td>Laboration</td>
-                        <td>Uppgift</td>
-                        <td>Status</td>
-                        <td>Redovisad</td>
-                    </tr>
-                    <tr>
-                      <td rowspan="3">1</td> //rowspan="3" berättar att just denna cell ska täcka 3 rader ner. 
-                      <td>1</td>
-                      <td>Ej bedömd</td>
-                      <td>Ej redovisad</td>
-                        <tr>
-                            <td>2</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Ej bedömd</td>
-                            <td>Ej redovisad</td>
-                        </tr>
-    
-                    </tr>
-                    <tr>
-                       <td rowspan="6">2</td>
-                       <td>1</td>
-                       <td>Ej påbörjad</td>
-                       <td>Ej redovisad</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Ej påbörjad</td>
-                        <td>Ej redovisad</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Ej påbörjad</td>
-                        <td>Ej redovisad</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Ej påbörjad</td>
-                        <td>Ej redovisad</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Ej påbörjad</td>
-                        <td>Ej redovisad</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Ej påbörjad</td>
-                        <td>Ej redovisad</td>
-                    </tr>
-                    <tr>
-                        <td colspan="4">Laborationsresultat gällande Lowe Raivio</td>
-                    </tr>
-                    
-                </table>
-                -->
                 <!-- försök 2 till en table, konsonanton (hans irc namn) hjälpte mig med att förstå strukuren när man använder <table>, <thead>, <tbody>, <tr>, <td>, <tfoot> -->
                 
                 <table border="1" id="betygtabell"> <!--Ser till att själva bordet har storleken av 280x300px, att ställa in storlek är troligtvis inte nödvändigt eftersom storleken anpassar sig annars efter innehållet. ps. height och width var inte tilllåtet enligt validatorn... -->
@@ -193,7 +131,7 @@
                
             
         </div>    
-        </div>   
+        </div> 
+        <div id="footer"><p>Detta är en footer</p></div>
     </body>
-    <div id="footer"><p>Detta är en footer</p></div>
 </html>
