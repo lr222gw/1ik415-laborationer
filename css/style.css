@@ -51,11 +51,12 @@ table {
 
 #container{
     margin: 0 auto;
- /*   background-color: rgb(74, 151, 123); */
+    background-color: #0C6E0E;
     max-width: 940px; /*Utan denna så blir inte sidan centrerad, jag valde max-width istället för width för att hålla sidan centrerad (?)*/
     padding: 0 15px 0 15px; /*nu har container en total bredd på totalt 970px */
     overflow: auto;
     margin-bottom: 34px; /*Denna är till för att min footer inte ska täcka över något..*/
+    
     
 }
 .blogg{
@@ -75,7 +76,7 @@ table {
 .menyo{
     border-bottom: 2px;
     border-style: solid;
- /*   background-color: rgb(190, 190, 54); */
+    background-color: #FFB30D;
     padding: 3px; /*Gör det mer lättläst med mellanrum*/
 }
 #content{
@@ -83,23 +84,25 @@ table {
     padding: 10px;
     max-width: 82%;
 /*    background-color: red; */
+    background-color: #66BD1C;
 
 }
 #footer{ /*Denna kommer troligtvis att behöva ändras, den kommer troligtvis ej funka på mobila-enheter*/
     position: fixed;
-    background-color: blue;
+    background-color: #E85B17;
     width: 100%;
-    bottom: 0px;
+    bottom: 0;
     padding: 10px 45% 5px 45%;
     border-top: 3px solid black;
 }
 
 h1 {
     font-size: 3em;
-    
 }
 
-
+body {
+    background-color: #961F15;
+}
 
 
 
