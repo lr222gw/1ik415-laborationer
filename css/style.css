@@ -51,7 +51,7 @@ table {
 
 #container{
     margin: 0 auto;
-    background-color: #0C6E0E;
+    background-color: #448378;
     max-width: 940px; /*Utan denna så blir inte sidan centrerad, jag valde max-width istället för width för att hålla sidan centrerad (?)*/
     padding: 0 15px 0 15px; /*nu har container en total bredd på totalt 970px */
     overflow: auto;
@@ -76,20 +76,19 @@ table {
 .menyo{
     border-bottom: 2px;
     border-style: solid;
-    background-color: #FFB30D;
+    background-color: #A45FB8;
     padding: 3px; /*Gör det mer lättläst med mellanrum*/
 }
 #content{
     float: left;
     padding: 10px;
     max-width: 82%;
-/*    background-color: red; */
-    background-color: #66BD1C;
+    background-color: #3A71A1;
 
 }
 #footer{ /*Denna kommer troligtvis att behöva ändras, den kommer troligtvis ej funka på mobila-enheter*/
     position: fixed;
-    background-color: #E85B17;
+    background-color: #44243F;
     width: 100%;
     bottom: 0;
     padding: 10px 45% 5px 45%;
@@ -101,9 +100,25 @@ h1 {
 }
 
 body {
-    background-color: #961F15;
+    background-color: #001D26;
+}
+.menyo:hover{ /* gör färgen på rutorna blir mörkare när man håller muspekaren över*/
+    background-color: #A231B8;
+}
+.menyo:visited{
+    color: red;
 }
 
+#meny a { /*Denna gör så att alla a element inne i en meny blir block element, och tilllåter mig att påverka fonten */
+    display: block;
+    color: black;
+    font-family: helvetica;
+    font-size: 1.2em;
+    text-decoration: none; /*tar bort understrecket..*/
+}
+#menyMark{
+    background-color: #802E96;
+}
 
 
 
