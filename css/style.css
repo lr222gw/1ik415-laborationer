@@ -53,7 +53,7 @@ table {
     margin: 0 auto;
     background-color: #448378;
     max-width: 940px; /*Utan denna så blir inte sidan centrerad, jag valde max-width istället för width för att hålla sidan centrerad (?)*/
-    padding: 0 15px 0 15px; /*nu har container en total bredd på totalt 970px */
+    padding: 10px 15px 0 15px; /*nu har container en total bredd på totalt 970px */
     overflow: auto;
     margin-bottom: 34px; /*Denna är till för att min footer inte ska täcka över något..*/
     
@@ -163,16 +163,16 @@ fieldset {
     border-radius: 4px;
 }
 legend {
-font-size: 24px;
-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-background-color: rgb(43,91,131);
-border-radius: 4px 4px 0 0;
-border: 1px black solid;
-padding: 2px;
-border-bottom: 0 black solid;
+    font-size: 24px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-color: rgb(43,91,131);
+    border-radius: 4px 4px 0 0;
+    border: 1px black solid;
+    padding: 2px;
+    border-bottom: 0 black solid;
 }
 label {
-display: block;
+    display: block;
 }
 .menyo:hover{ /* gör färgen på rutorna blir mörkare när man håller muspekaren över*/
     background-color: #A231B8;
