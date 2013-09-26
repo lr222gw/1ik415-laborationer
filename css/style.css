@@ -101,6 +101,9 @@ table {
     background-color: #802E96;
 }
 /*Saker som inte används mer än till vissa saker*/
+#blogg2bild{
+    width:100%;
+}
 #lowebild {
     float: right;
     margin: 3px 1px 0 15px;
