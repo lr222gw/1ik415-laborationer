@@ -124,6 +124,18 @@ table {
     margin: 0 0 20px 0;
     border-radius: 4px; /* Rundar kanterna på alla hörn*/
 }
+.b-left{
+    float: left;
+    margin: 10px;
+    border: 3px solid rgb(26, 4, 34);
+    border-radius: 3px;
+}
+.b-right{
+    float: right;
+    margin: 10px;
+    border: 3px solid rgb(26, 4, 34);
+    border-radius: 3px;
+}
 .menyo{
     border-bottom: 2px;
     border-style: solid;
