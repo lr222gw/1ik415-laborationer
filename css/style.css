@@ -172,7 +172,7 @@ h3{
     border-bottom: 1px rgb(52, 155, 155) solid;
     padding-left: 50px;
     margin-bottom: 5px;
-    background-image: url(pics/logga.png);
+    background-image: url(pics/logga.png); /*Mycket möjligt att jag byter ut denna i framtiden*/
     background-position: top left;
     background-size: 55px 50px;
     background-repeat: no-repeat;
