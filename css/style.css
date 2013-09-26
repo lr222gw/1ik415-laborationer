@@ -51,6 +51,11 @@ table {
 
 /*Här ska alla ID vara, sorterad i bokstavsordning*/
 /*saker som används på varje sida eller ofta*/
+#sitetitle{ /*Detta optimerar för sökmotorer.. texten finns där men den är genomskinlig, den tar ingen "fysisk plats".*/
+    position: absolute;
+    color: rgba(255, 0, 0, 0);
+    border-bottom: 0 transparent solid;
+}
 #container{
     margin: 0 auto;
     background-color: #448378;
@@ -76,12 +81,13 @@ table {
     border-top: 3px solid black;
 }
 #header{
-    background-image: url(../pics/Sidan-om-lowe.png); /*Har satt in headerbilden i toppen i css. sjusterat den med alla attribut i detta block*/
-    background-size: 48em;
-    background-repeat: no-repeat;
-    padding-top: 180px;
-    margin-bottom: -30px;
-    background-position: center;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 773px;
+    padding: 10px 15px 0 15px;
+}
+#loggotyp {
+width: 100%;
 }
 #meny{
    width: 140px;
@@ -129,12 +135,14 @@ table {
     margin: 10px;
     border: 3px solid rgb(26, 4, 34);
     border-radius: 3px;
+    max-width: 89%;
 }
 .b-right{
     float: right;
     margin: 10px;
     border: 3px solid rgb(26, 4, 34);
     border-radius: 3px;
+    max-width: 89%;
 }
 .menyo{
     border-bottom: 2px;
