@@ -67,7 +67,12 @@ table {
 }
 
 #header{
-    margin-left: 7%;
+    background-image: url(../pics/Sidan-om-lowe.png);
+    background-size: 48em;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    margin-bottom: -30px;
+    background-position: center;
 }
 #meny{
    width: 140px;
@@ -86,6 +91,7 @@ table {
     float: left;
     padding: 10px;
     max-width: 82%;
+    min-width: 82%; /*Gör så att sidan helst vill ha storleken 82% såvida inget större eller mindre block säger annat..*/
     background-color: #3A71A1;
 
 }
@@ -115,8 +121,13 @@ h3{
     line-height: 1.2em;
     margin-top: 5px;
     border-bottom: 1px rgb(52, 155, 155) solid;
-    padding-left: 35px;
+    padding-left: 50px;
     margin-bottom: 5px;
+    background-image: url(pics/logga.png);
+    background-position: top left;
+    background-size: 55px 50px;
+    background-repeat: no-repeat;
+    padding-top: 17px;
 }
 h4{
         font-size: 1.4em;
@@ -141,6 +152,27 @@ dt{
 }
 body {
     background-color: #001D26;
+}
+
+fieldset {
+
+    border: black 1px solid;
+    background-color: rgba(13, 47, 66, 0.32);
+    padding: 10px;
+    margin: 16px 0 20px 0;
+    border-radius: 4px;
+}
+legend {
+font-size: 24px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+background-color: rgb(43,91,131);
+border-radius: 4px 4px 0 0;
+border: 1px black solid;
+padding: 2px;
+border-bottom: 0 black solid;
+}
+label {
+display: block;
 }
 .menyo:hover{ /* gör färgen på rutorna blir mörkare när man håller muspekaren över*/
     background-color: #A231B8;
