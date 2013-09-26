@@ -77,8 +77,14 @@ table {
     background-color: #44243F;
     width: 100%;
     bottom: 0;
-    padding: 10px 45% 5px 45%;
+  /*  padding: 10px 45% 5px 45%; Tog bort denna då jag lyckades centrera texten i footer bättre med "#footer p"  */ 
     border-top: 3px solid black;
+}
+#footer p{
+    color: rgb(148, 98, 98);
+    width: 185px;
+    margin: 0 auto;
+    padding: 5px;
 }
 #header{
     margin: 0 auto;
