@@ -187,6 +187,15 @@ font-size: 0.8em;
 /*Här slutar klasser*/
 
 /*Här ska alla htmltaggar vara, sorterade i bokstavsordning...*/
+a:link:after, a:visited:after{ /*Detta attribut är taget från http://davidwalsh.name/optimize-your-links-for-print-using-css-show-url */
+    content:" [" attr(href) "] ";
+    color: blue;
+    display: block; /*genom att sätta block här lbir det nya rader, jag väljer att färga url-länkarna blåa så att man lätta kan se skillnad.*/
+    margin-bottom: 10px; /*Denna lägger jag till så att det inte blir för trångt mellan all kod..*/
+}
+a:link, a:link:visited{
+    color: rgb(0, 172, 0); /*Ändrar Färgen till lite mörkare färg så att det blir lättare att se på de vita papperet..*/
+}
 body {
     background-color: #001D26;
 }

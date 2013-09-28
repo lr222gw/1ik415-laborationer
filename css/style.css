@@ -186,9 +186,16 @@ margin-top: 5px;
     overflow: auto;
     page-break-inside: avoid;
 }
+.sektionP{ /*Gjorde denna så jag kan dela in saker i sektioner OCh tilldela padding utan att förändra klassen .sektion*/
+    page-break-inside: avoid;
+    margin-top: 10px;
+}
 /*Här slutar klasser*/
 
 /*Här ska alla htmltaggar vara, sorterade i bokstavsordning...*/
+a:visited{
+    color: rgb(221, 57, 214); 
+}
 body {
     background-color: #001D26;
 }
