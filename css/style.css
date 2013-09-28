@@ -120,12 +120,21 @@ width: 100%;
 #blogg2bild{
     width:100%;
 }
+#kontaktknapp{
+    width: 85px;
+    height: 30px;
+    margin-left: 11px;
+    margin-bottom: 25px;
+}
 #lowebild {
     float: right;
     margin: 3px 1px 0 15px;
     border-radius: 5px;
     box-shadow: 0 0 30px 4px;
     color: rgb(28, 3, 34);
+}
+#meddelande {
+min-width: 350px;
 }
 #video1vink{
     width: 100%; /*Gör att videon är så stor som möjligt, men anpassar sig även när man skalar ner fönsteret..*/
@@ -224,6 +233,7 @@ h4{
 }
 label {
     display: block;
+    padding-top: 10px;
 }
 legend {
     font-size: 24px;
