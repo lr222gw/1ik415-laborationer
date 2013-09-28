@@ -1,3 +1,9 @@
+/* OBS!!! Kopierade  stylemallen! ÄNDRAR I DENNA */
+
+
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -58,31 +64,26 @@ table {
 }
 #container{
     margin: 0 auto;
-    background-color: #448378;
-    max-width: 940px; /*Utan denna så blir inte sidan centrerad, jag valde max-width istället för width för att hålla sidan centrerad (?)*/
+    background-color: #0000;
+    max-width: 100%; /*Utan denna så blir inte sidan centrerad, jag valde max-width istället för width för att hålla sidan centrerad (?)*/
     padding: 10px 15px 0 15px; /*nu har container en total bredd på totalt 970px */
     overflow: auto;
     margin-bottom: 34px; /*Denna är till för att min footer inte ska täcka över något..*/
-    box-shadow: 0 7px 39px 7px rgb(156, 0, 156); /* boxshadow,borderradius och boder är till för att ge sidan lite lyssande ram.. kanske tar bort senare men nu tycker jag nog det ser bra ut...*/
-    border-radius: 5px 5px 0 0;
-    border: 2px solid black;
+    box-shadow: 0 0 0 0 rgb(156, 0, 156); /* boxshadow,borderradius och boder är till för att ge sidan lite lyssande ram.. kanske tar bort senare men nu tycker jag nog det ser bra ut...*/
+    border-radius: 0 0 0 0;
+    border: 0 solid black;
+    
 }
 #content{
     float: left; /*Gör att hela content boxen hoppar upp och sätter sig brevid menyn istället för under*/
-    padding: 10px;
-    max-width: 82%;
-    min-width: 82%; /*Gör så att sidan helst vill ha storleken 82% såvida inget större eller mindre block säger annat..*/
+    padding: 0px;
+    max-width: 100%;
+    min-width: 100%; /*Gör så att sidan helst vill ha storleken 82% såvida inget större eller mindre block säger annat..*/
     background-color: #3A71A1;
-    box-shadow: 0px 0px 8px 1px;
-
+    box-shadow: 0 0 0 0;
 }
 #footer{ /*Denna kommer troligtvis att behöva ändras, den kommer troligtvis ej funka på mobila-enheter*/
-    position: fixed; /*position fixed innebär att Denna del kommer ligga statiskt på skärmen även om man scrollar ner eller upp */
-    background-color: #44243F;
-    width: 100%;
-    bottom: 0;
-  /*  padding: 10px 45% 5px 45%; Tog bort denna då jag lyckades centrera texten i footer bättre med "#footer p"  */ 
-    border-top: 3px solid black;
+    display: none;
 }
 #footer p{
     color: rgb(148, 98, 98);
@@ -100,11 +101,7 @@ table {
 width: 100%;
 }
 #meny{
-   width: 140px;
-   border-width: 2px 2px 0 2px; 
-   border-color: black;
-   border-style: solid;
-   float: left;
+    display: none;
 }
 #meny a { /*Denna gör så att alla a element inne i en meny blir block element, och tilllåter mig att påverka fonten */
     display: block;
@@ -148,21 +145,23 @@ min-width: 350px;
     padding: 10px;
     margin: 0 0 20px 0;
     border-radius: 4px; /* Rundar kanterna på alla hörn*/
+    display:block;
     overflow: auto;
+    page-break-inside: avoid; /*gör så att sidans kortare blogginlägg inte delas upp på två sidor vid utskrift!*/
 }
 .b-left{
-    float: left;
+    float: left; /*Ändrar float till none pga att  bilderna lägger sig brevid h-taggar... EDIT!! ändrar tillbaka. löste sig när jag gav .blogg attributet page-break-inside: aboid; ! :)*/
     margin: 10px;
     border: 3px solid rgb(26, 4, 34);
     border-radius: 3px;
-    max-width: 89%;
+    max-width: 59%;
 }
 .b-right{
     float: right;
     margin: 10px;
     border: 3px solid rgb(26, 4, 34);
     border-radius: 3px;
-    max-width: 89%;
+    max-width: 59%;
 }
 .menyo{
     border-bottom: 2px;
@@ -173,16 +172,15 @@ min-width: 350px;
 .menyo:hover{ /* gör färgen på rutorna blir mörkare när man håller muspekaren över*/
     background-color: #A231B8;
 }
-.menyo:visited{
+.menyo:visited{ /* Noterade att denna tagg EJ FUNGERAR just nu..*/
     color: red;
 }
 .nameNdate {
-float: right; /*För att denna ska fungera så måste .blogg-klassen ha overflow:auto; annars kommer  det bli.. fult*/
+float: right;
 font-style: italic;
 font-size: 0.8em;
-margin-top: 5px;
 }
-.sektion{ /*Denna behöver egentligen inte vara i style.css-filen men jag tänker att jagk naske kommer ha mer användning för den senare så jag vill haden här också..*/
+.sektion{
     overflow: auto;
     page-break-inside: avoid;
 }
@@ -200,7 +198,7 @@ dt{
 
 fieldset {
 
-    border: black 1px solid;
+    border: black 0px solid;
     background-color: rgba(13, 47, 66, 0.32);
     padding: 10px;
     margin: 16px 0 20px 0;
@@ -236,7 +234,7 @@ h3{
     padding-top: 17px;
 }
 h4{
-        font-size: 1.4em;
+    font-size: 1.4em;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     line-height: 1.2em;
     margin-top: 20px;
@@ -251,7 +249,7 @@ legend {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     background-color: rgb(43,91,131);
     border-radius: 4px 4px 0 0;
-    border: 1px black solid;
+    border: 0 black solid;
     padding: 2px;
     border-bottom: 0 black solid;
 }
@@ -278,8 +276,8 @@ li a:hover,p a:hover{ /*hover attributet gör att det ser annorlunda ut när man
     color: rgb(144, 221, 144);
 }
 p, .nicetext{ /*här grupperar vi flera taggar som vi vill ska se likadana ut! Görs med hjälp av comman.*/
-    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-    color: rgb(232, 226, 241);
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif; /*Behåller denna font då den är av typen serif och ger bättre läsbarhet*/
+    color: rgb(0,0,0); /* Ändrar till svart text då det är mer synligt på utskrift*/
     font-size: 1.2em;
     line-height: 1.1em;
     margin-bottom: 10px;
