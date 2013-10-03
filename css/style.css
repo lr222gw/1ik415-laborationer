@@ -99,6 +99,7 @@ table {
 #loggotyp {
 width: 100%;
 }
+/*MENY RELATERAT*/
 #meny{
    width: 140px;
    border-width: 2px 2px 0 2px; 
@@ -112,10 +113,41 @@ width: 100%;
     font-family: helvetica;
     font-size: 1.2em;
     text-decoration: none; /*tar bort understrecket..*/
+    /*under  ser du kod som fixar position och icon till menyn*/
+    padding-left: 25px;
+    background-image: url("pics/sprite.png");
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
 }
 #menyMark{ /*Denna säts på det menyalternativ som representerar sin htmlfil. tex kontakt.html markerar menyalternativet kontakt */
     background-color: #802E96;
 }
+#start{
+    background-position: 0 0; 
+}
+#labborationer{
+    background-position: 0 -95px;
+}
+#presentation{
+    background-position: 0 -190px;
+}
+#kontakt{
+    background-position: 0 -287px;
+}
+#start:hover{
+    background-position: 0 -50px;
+}
+#labborationer:hover{
+    background-position: 0 -145px;
+}
+#presentation:hover{
+    background-position: 0 -240px;
+}
+#kontakt:hover{
+    background-position: 0 -336px;
+}
+/*SLUT PÅ MENYRELATERAT!*/
 /*Saker som inte används mer än till vissa saker*/
 #blogg2bild{
     width:100%;
@@ -138,7 +170,6 @@ min-width: 350px;
 }
 #video1vink{
     width: 100%; /*Gör att videon är så stor som möjligt, men anpassar sig även när man skalar ner fönsteret..*/
-    
 }
 /*Slut på IDs*/
 
