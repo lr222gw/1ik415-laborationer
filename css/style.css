@@ -116,8 +116,8 @@ width: 100%;
     /*under  ser du kod som fixar position och icon till menyn*/
     padding-left: 25px;
     background-image: url("pics/sprite.png");
-    height: 24px;
-    width: 24px;
+ /*   height: 24px;
+    width: 24px;    Avaktiverar Height och width för att när de är aktiverade så kan man inte trycka på hela menyn.. */
     background-repeat: no-repeat;
 }
 #menyMark{ /*Denna säts på det menyalternativ som representerar sin htmlfil. tex kontakt.html markerar menyalternativet kontakt */

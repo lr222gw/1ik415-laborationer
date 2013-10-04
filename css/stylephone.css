@@ -1,0 +1,11 @@
+#container{
+    margin: 0 auto;
+    background-color: red;
+    max-width: 940px; /*Utan denna så blir inte sidan centrerad, jag valde max-width istället för width för att hålla sidan centrerad (?)*/
+    padding: 10px 15px 0 15px; /*nu har container en total bredd på totalt 970px */
+    overflow: auto;
+    margin-bottom: 34px; /*Denna är till för att min footer inte ska täcka över något..*/
+    box-shadow: 0 7px 39px 7px rgb(156, 0, 156); /* boxshadow,borderradius och boder är till för att ge sidan lite lyssande ram.. kanske tar bort senare men nu tycker jag nog det ser bra ut...*/
+    border-radius: 0 0 0 0;
+    border: 2px solid black;
+}

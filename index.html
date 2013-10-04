@@ -2,9 +2,15 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width:device-width, initial-scale=1.0" />
+        <!--^denna gör så att när man kollar på sidan så blir sidan anpassad till skärmens storlek beroende på vilken enhet man använder-->
         <title>Sidan om Lowe</title>
+
     <link rel="stylesheet" type="text/css" href="css/style.css"><!--link till stylesheet ska alltid vara i head, löste ett problem.. -->    
     <link rel="stylesheet" type="text/css" href="css/styleprint.css" media="print" >
+    <link rel="stylesheet" type="text/css" href="css/stylephone.css" media="screen and (max-width:480px)" />
+    <!--^denna berättar att om jag har ett device av typen screen som är mindre än eller lika stor som 480px så kommer stylesheeten stylephone.css -->
+    <!--OBS! Den alternativa stylesheeten för stylephone.css MÅSTE ligga under, annars fungerar det ej. -->
     </head>
     <body>
         <div id="header"> <!--nu skapar jag min header box -->
