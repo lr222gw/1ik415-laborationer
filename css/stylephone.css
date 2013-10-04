@@ -9,7 +9,17 @@
 }
 #meny{
     width: 100%;
+    margin-bottom: 5px;
 }
 #meddelande {
 min-width: 250px;
+}
+h1 {
+font-size: 2.5em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    
 }
