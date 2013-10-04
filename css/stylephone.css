@@ -7,3 +7,6 @@
     min-width: 100%;
     margin-left: -10px; /*Gör så att content blir i mitten..*/
 }
+#meny{
+    width: 100%;
+}
