@@ -10,3 +10,6 @@
 #meny{
     width: 100%;
 }
+#meddelande {
+min-width: 250px;
+}
