@@ -27,3 +27,5 @@ position: absolute;
 z-index: 1;
 display: none;
 }
+/*Gör ingenting med Footer nu för att den ändå är för liten för att ställa till problem, men 
+kan vara bra att ge den position: absolute; på mobilversionen om den kommer krångla senare..*/
