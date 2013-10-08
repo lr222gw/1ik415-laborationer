@@ -18,8 +18,11 @@ h1 {
 font-size: 2.5em;
 }
 h2{
-    font-size: 1.5em;
+    font-size: 2em;
 }
-h3{
-    
+#styleish {
+margin-top: 110px;
+position: absolute;
+z-index: 1;
+display: none;
 }

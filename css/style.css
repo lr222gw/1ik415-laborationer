@@ -74,6 +74,9 @@ table {
     min-width: 82%; /*Gör så att sidan helst vill ha storleken 82% såvida inget större eller mindre block säger annat..*/
     background-color: #3A71A1;
     box-shadow: 0px 0px 8px 1px;
+    /*Okej det som kommer här under är till för att vi ska kunna strukturera med z-index. För att det ska funka måste vi sätta position till relative.. (eller annat utom statisk..)*/
+    z-index: 20;
+    position: relative;
 
 }
 #footer{ /*Denna kommer troligtvis att behöva ändras, den kommer troligtvis ej funka på mobila-enheter*/
@@ -83,12 +86,15 @@ table {
     bottom: 0;
   /*  padding: 10px 45% 5px 45%; Tog bort denna då jag lyckades centrera texten i footer bättre med "#footer p"  */ 
     border-top: 3px solid black;
+        /*Samma gällande som content.. men här behöver vi inte ha position relative då vi redan har fixed. */
+    z-index: 50;
 }
 #footer p{
     color: rgb(148, 98, 98);
     width: 185px;
     margin: 0 auto;
     padding: 5px;
+
 }
 #header{
     margin: 0 auto;
@@ -99,6 +105,37 @@ table {
 #loggotyp {
 width: 100%;
 }
+/*Tillstilningen på sidan..*/
+#styleish {
+margin-top: 110px;
+position: absolute;
+z-index: 1;
+}
+#c1c {
+background-color: rgb(111, 43, 105);
+width: 63px;
+height: 182px;
+position: absolute;
+border-radius: 0 0 0 60px;
+}
+#c2c {
+background-color: rgb(110, 196, 141);
+width: 45px;
+height: 270px;
+position: absolute;
+margin-left: 63px;
+border-radius: 0 0 0 60px;
+}
+#c3c {
+background-color: rgb(39, 63, 88);
+width: 35px;
+height: 420px;
+position: absolute;
+margin-left: 108px;
+border-radius: 0 0 0 60px;
+}
+/*Slut på tillstilningen på sidan*/
+
 /*MENY RELATERAT*/
 #meny{
    width: 140px;
@@ -106,6 +143,10 @@ width: 100%;
    border-color: black;
    border-style: solid;
    float: left;
+   /*Samma som gället för content och footer...*/
+   z-index: 20;
+   position: relative;
+   box-shadow: 2px 0px 20px -1px;
 }
 #meny a { /*Denna gör så att alla a element inne i en meny blir block element, och tilllåter mig att påverka fonten */
     display: block;
@@ -164,6 +205,7 @@ width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 30px 4px;
     color: rgb(28, 3, 34);
+    max-width: 40%;
 }
 #meddelande {
 min-width: 350px;
@@ -186,14 +228,14 @@ min-width: 350px;
     margin: 10px;
     border: 3px solid rgb(26, 4, 34);
     border-radius: 3px;
-    max-width: 89%;
+    max-width: 50%;
 }
 .b-right{
     float: right;
     margin: 10px;
     border: 3px solid rgb(26, 4, 34);
     border-radius: 3px;
-    max-width: 89%;
+    max-width: 50%;
 }
 .menyo{
     border-bottom: 2px;
@@ -279,6 +321,9 @@ h4{
     line-height: 1.2em;
     margin-top: 20px;
     margin-bottom: 5px;
+}
+img{
+   width: 100%; 
 }
 label {
     display: block;
