@@ -7,6 +7,10 @@
     min-width: 100%;
     margin-left: -10px; /*Gör så att content blir i mitten..*/
 }
+#header {
+max-width: 100%; /*genom att ändra denna från 773px till 100% så kommer texten/loggan alltid bli så stor som möjligt på mobiler.*/
+padding: 0 0 0 0;
+}
 #meny{
     width: 100%;
     margin-bottom: 5px;
