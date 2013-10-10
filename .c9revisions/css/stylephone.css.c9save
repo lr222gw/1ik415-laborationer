@@ -63,3 +63,4 @@
 {"ts":1381260955105,"patch":[[{"diffs":[[0,".*/\r\n}\r\n"],[1,"#header {\r\nmax-width: 773px; /*genom att ändra denna från 773px till 100% så kommer texten/loggan alltid bli så stor som möjligt på mobiler.*/\r\n}\r\n"],[0,"#meny{\r\n"]],"start1":171,"start2":171,"length1":16,"length2":163}]],"length":764,"saved":false}
 {"ts":1381260960426,"patch":[[{"diffs":[[0,"-width: "],[-1,"773px"],[1,"100%"],[0,"; /*geno"]],"start1":193,"start2":193,"length1":21,"length2":20}]],"length":763,"saved":false}
 {"ts":1381261055992,"patch":[[{"diffs":[[0,"mobiler.*/\r\n"],[1,"padding: 0 0 0 0;\r\n"],[0,"}\r\n#meny{\r\n "]],"start1":310,"start2":310,"length1":24,"length2":43}]],"length":782,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1381393180775,"patch":[[{"diffs":[[0,"ttom: 5px;\r\n"],[1,"    float: none;\r\n"],[0,"}\r\n#meddelan"]],"start1":383,"start2":383,"length1":24,"length2":42}]],"length":800,"saved":false}

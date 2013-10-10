@@ -14,6 +14,7 @@ padding: 0 0 0 0;
 #meny{
     width: 100%;
     margin-bottom: 5px;
+    float: none;
 }
 #meddelande {
 min-width: 215px;
