@@ -14,19 +14,19 @@
     <!--OBS! Den alternativa stylesheeten för stylephone.css MÅSTE ligga under, annars fungerar det ej. -->
     </head>
     <body>
-        <div id="header"> <!--nu skapar jag min header box -->
+        <header> <!--nu skapar jag min header box -->
             <h1 id="sitetitle">Sidan om Lowe</h1><!--Denna htagg optimerar för sökmotorer, den har ett id så att jag kan göra den osynlig och gör att den inte tar upp plats med css.. --><img id="loggotyp" src="pics/Sidan-om-lowe.png" alt="sidan om lowes logga" title="Sidan om Lowe" width="770" /> <!--med hjälp av height och width så kan jag ändra storleken, enklast är bara att ändra width i detta fall då det är att den är för lång, då kommer hieght automatiskt att ändras -->
-        </div>
+        </header>
         <div id="container">
 
-            <div id="meny">
+            <nav>
                 <ul> <!--Skriver menylistan här för att jag sett att den verkar ligga överst på många sidor.. säkert bra för strukturen tänker jag -->
                     <li><div class="menyo" id="menyMark"><a href="index.html" id="start">Start</a></div></li> <!--<div class="menyo"> behövde ligga innanför <li> -->
                     <li><div class="menyo"><a href="pages/laborationer.html" id="labborationer">Laborationer</a></div></li>
                     <li><div class="menyo"><a href="pages/presentation.html" id="presentation">Presentation</a></div></li>
                     <li><div class="menyo"><a href="pages/kontakt.html" id="kontakt">Kontakt</a></div></li>
                 </ul>
-            </div>
+            </nav>
         <div id="styleish">
         <div id="c1c"></div>
         <div id="c2c"></div>
@@ -35,11 +35,11 @@
         <div id="c5c"></div>
         <div id="c6c"></div>
         </div> 
-            <div id="content">
+            <main>
                 <h1>Bloggen som Lowe skrev den</h1>
         
                 <h2>Kursbloggen</h2> <!--Funderar på om denna ska vara kvar..-->
-                <article>
+                <article> <!--Nu när jag byter ut blogg mot article så måste jag även se till att slut-taggen heter /article, inte /div. -->
                     <h3>Blogg 5: labb 3.3</h3>
                     <p>Nu är labb 3.3 klar! Labben gick ut på att vi skulle härma en hemsida, jag tycker att reslutatet blev bra! här är en <a href="https://c9.io/lr222gw/uppgift-3-3/workspace/index.html#">länk</a> till resultatet. Här är en länk till hur <a href="https://c9.io/lr222gw/uppgift-3-3/workspace/IE7_hela.png" target="_blank">sidan som jag härmade såg ut!</a></p>
                     <div class="nameNdate"><p>Skrivet av Lowe&nbsp;Raivio, 2013-10-03</p></div>
@@ -80,7 +80,7 @@
                     <div class="nameNdate"><p> Skrivet av Lowe&nbsp;Raivio, 2013-09-09</p></div>
                     <!--&nbsp måste ha ett semicolon för att fungera.. -->
                 </article>
-            </div>
+            </main>
          </div>   
         <div id="footer"> <!--Denna tagg skriver jag utanför containern så att mitt footer alltid kan följa med -->
             <div id="footerfix"><p>Det här är min footer</p></div>

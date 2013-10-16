@@ -67,7 +67,7 @@ table {
     border-radius: 5px 5px 0 0;
     border: 2px solid black;
 }
-#content{
+#content, main{
     float: left; /*Gör att hela content boxen hoppar upp och sätter sig brevid menyn istället för under*/
     padding: 10px;
     max-width: 82%;
@@ -96,7 +96,7 @@ table {
     padding: 5px;
 
 }
-#header{
+#header, header{
     margin: 0 auto;
     width: 95%;
     max-width: 773px;
@@ -175,7 +175,7 @@ transition-duration: 3s;
 /*Slut på tillstilningen på sidan*/
 
 /*MENY RELATERAT*/
-#meny{
+#meny, nav{
    width: 140px;
    border-width: 2px 2px 0 2px; 
    border-color: black;
@@ -186,9 +186,9 @@ transition-duration: 3s;
    position: relative;
    box-shadow: 2px 0px 20px -1px;
 }
-#meny a { /*Denna gör så att alla a element inne i en meny blir block element, och tilllåter mig att påverka fonten */
+#meny a, nav a { /*Denna gör så att alla a element inne i en meny blir block element, och tilllåter mig att påverka fonten */
     display: block;
-    color: black;
+    color: black; /*Jätte konstigt.. Färgen på texten blir inte svart, verkar som om a:visited och "li a, p a" har högre prio*/
     font-family: helvetica;
     font-size: 1.2em;
     text-decoration: none; /*tar bort understrecket..*/
