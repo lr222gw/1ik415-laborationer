@@ -262,7 +262,7 @@ min-width: 350px;
     border-radius: 4px; /* Rundar kanterna på alla hörn*/
     overflow: auto;
     page-break-inside: avoid; /*Lägger till denna här nu när jag kör på article istället..*/
-}
+} 
 .b-left{
     float: left;
     margin: 10px;
