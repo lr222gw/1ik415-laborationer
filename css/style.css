@@ -254,7 +254,8 @@ min-width: 350px;
 /*Slut på IDs*/
 
 /*Här ska alla klasser vara*/
-.blogg{ /*Det här attributet schysterar blogginläggen */
+.blogg, article{ /*Det här attributet schysterar blogginläggen */
+    /*Lägger till Article brevid blogg för dem ska ha samma egenskaper... låter blogg vara kvar dock..*/
     background-color: rgba(13, 47, 66, 0.32);
     padding: 10px;
     margin: 0 0 20px 0;
