@@ -277,6 +277,30 @@ min-width: 350px;
     border-radius: 3px;
     max-width: 50%;
 }
+.c-content {
+margin-left: 75px;
+font-size: 0.8em;
+background-color: rgba(128, 128, 128, 0.72);
+padding: 4px 5px 1px 8px;
+border-radius: 2px;
+margin-right: -6px;
+margin-top: 10px;
+}
+.c-who {
+background-color: rgb(141, 108, 108);
+width: 65px;
+height: 72px;
+float: left;
+background-image: url(../pics/lowe.jpg);
+background-size: 65px 72px;
+border-radius: 4px;
+box-shadow: 0px 1px 4px 4px;
+margin-bottom: 30px; /*Ger lite space till namnet..*/
+}
+.c-who p {
+margin-top: 80px;
+font-size: 0.7em;
+}
 .menyo{
     border-bottom: 2px;
     border-style: solid;
