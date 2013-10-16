@@ -96,6 +96,18 @@ table {
     padding: 5px;
 
 }
+#hcard-Lowe-Mikael-Raivio {
+background-color: rgba(13, 47, 66, 0.32);
+padding-bottom: 104px;
+max-width: 376px;
+padding: 16px 3px 108px 13px;
+border-radius: 4px;
+box-shadow: 1px 1px 7px 0px;
+margin: 0 auto; /*Ställer den lilla rutan i mitten..*/
+}
+#hcard-Lowe-Mikael-Raivio a, #hcard-Lowe-Mikael-Raivio p, #hcard-Lowe-Mikael-Raivio span {
+text-shadow: 1px 1px 2px rgb(102, 102, 102);
+}
 #header, header{
     margin: 0 auto;
     width: 95%;
@@ -318,6 +330,11 @@ float: right; /*För att denna ska fungera så måste .blogg-klassen ha overflow
 font-style: italic;
 font-size: 0.8em;
 margin-top: 5px;
+}
+.photo {
+width: 100px;
+border-radius: 3px;
+box-shadow: 0px 1px 8px 1px
 }
 .sektion{ /*Denna behöver egentligen inte vara i style.css-filen men jag tänker att jagk naske kommer ha mer användning för den senare så jag vill haden här också..*/
     overflow: auto;
