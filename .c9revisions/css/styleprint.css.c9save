@@ -89,3 +89,8 @@
 {"ts":1380375891262,"patch":[[{"diffs":[[0,"\n    color: "],[-1,"black"],[1,"rgb(0, 206, 0)"],[0,";\r\n}\r\nbody {"]],"start1":5936,"start2":5936,"length1":29,"length2":38}]],"length":8706,"saved":false}
 {"ts":1380375915770,"patch":[[{"diffs":[[0,"  color: rgb(0, "],[-1,"206"],[1,"172"],[0,", 0);\r\n}\r\nbody {"]],"start1":5939,"start2":5939,"length1":35,"length2":35}]],"length":8706,"saved":false}
 {"ts":1380375960026,"patch":[[{"diffs":[[0,"(0, 172, 0);"],[1," /*Ändrar Färgen till lite mörkare färg så att det blir lättare att se på de vita papperet..*/"],[0,"\r\n}\r\nbody {\r"]],"start1":5951,"start2":5951,"length1":24,"length2":118}]],"length":8800,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1381936080154,"patch":[[{"diffs":[[0,"#content"],[1,", main"],[0,"{\r\n    f"]],"start1":2324,"start2":2324,"length1":16,"length2":22}]],"length":8806,"saved":false}
+{"ts":1381936089457,"patch":[[{"diffs":[[0,"0 0 0;\r\n}\r\n#"],[1,"footer, "],[0,"footer{ /*De"]],"start1":2663,"start2":2663,"length1":24,"length2":32}]],"length":8814,"saved":false}
+{"ts":1381936107099,"patch":[[{"diffs":[[0,"#footer "],[1,"p, footer "],[0,"p{\r\n    "]],"start1":2811,"start2":2811,"length1":16,"length2":26}]],"length":8824,"saved":false}
+{"ts":1381936111683,"patch":[[{"diffs":[[0,"x;\r\n}\r\n#"],[1,"header, "],[0,"header{\r"]],"start1":2918,"start2":2918,"length1":16,"length2":24}]],"length":8832,"saved":false}
+{"ts":1381936123700,"patch":[[{"diffs":[[0,"}\r\n#meny"],[1,", nav"],[0,"{\r\n    d"]],"start1":3066,"start2":3066,"length1":16,"length2":21},{"diffs":[[0,"\r\n#meny "],[1,"a, nav "],[0,"a { /*De"]],"start1":3103,"start2":3103,"length1":16,"length2":23}]],"length":8844,"saved":false}

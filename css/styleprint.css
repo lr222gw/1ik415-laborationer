@@ -74,7 +74,7 @@ table {
     border: 0 solid black;
     
 }
-#content{
+#content, main{
     float: left; /*Gör att hela content boxen hoppar upp och sätter sig brevid menyn istället för under*/
     padding: 0px;
     max-width: 100%;
@@ -82,16 +82,16 @@ table {
     background-color: #3A71A1;
     box-shadow: 0 0 0 0;
 }
-#footer{ /*Denna kommer troligtvis att behöva ändras, den kommer troligtvis ej funka på mobila-enheter*/
+#footer, footer{ /*Denna kommer troligtvis att behöva ändras, den kommer troligtvis ej funka på mobila-enheter*/
     display: none;
 }
-#footer p{
+#footer p, footer p{
     color: rgb(148, 98, 98);
     width: 185px;
     margin: 0 auto;
     padding: 5px;
 }
-#header{
+#header, header{
     margin: 0 auto;
     width: 95%;
     max-width: 773px;
@@ -100,10 +100,10 @@ table {
 #loggotyp {
 width: 100%;
 }
-#meny{
+#meny, nav{
     display: none;
 }
-#meny a { /*Denna gör så att alla a element inne i en meny blir block element, och tilllåter mig att påverka fonten */
+#meny a, nav a { /*Denna gör så att alla a element inne i en meny blir block element, och tilllåter mig att påverka fonten */
     display: block;
     color: black;
     font-family: helvetica;
