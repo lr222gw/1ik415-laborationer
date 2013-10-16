@@ -79,7 +79,7 @@ table {
     position: relative;
 
 }
-#footer{ /*Denna kommer troligtvis att behöva ändras, den kommer troligtvis ej funka på mobila-enheter*/
+#footer, footer{ /*Denna kommer troligtvis att behöva ändras, den kommer troligtvis ej funka på mobila-enheter*/
     position: fixed; /*position fixed innebär att Denna del kommer ligga statiskt på skärmen även om man scrollar ner eller upp */
     background-color: #44243F;
     width: 100%;
@@ -89,7 +89,7 @@ table {
         /*Samma gällande som content.. men här behöver vi inte ha position relative då vi redan har fixed. */
     z-index: 50;
 }
-#footer p{
+#footer p, footer p{
     color: rgb(148, 98, 98);
     width: 185px;
     margin: 0 auto;
