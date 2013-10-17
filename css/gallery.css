@@ -1,4 +1,17 @@
-
+        
+        /*Här kastar jag in fonts som jag ska använda som jag laddat ner*/
+        @font-face{ /*Denna kod berättar att det som är mellan måsvingarna ska bli en font-face (?)*/
+            font-family: demonized; /*Namnet på denna font, som vi också använder när vi anropar*/
+            src: url("fonts/Demonized.ttf"); /*Var denna font befinner sig*/
+        }
+        @font-face{
+            font-family: FaceYourFear;
+            src: url("fonts/Face Your Fears.ttf");
+        }
+        @font-face{
+            font-family: Journal;
+            src: url("fonts/JOURNAL.TTF");
+        }
 body{
     background-color: rgb(141, 0, 0);
 }
@@ -12,7 +25,7 @@ a{
     -webkit-transform: rotate(4deg);
     display: block;
     float: left;
-    padding: 10px 10px 70px 10px;
+    padding: 10px 10px 20px 10px;
     background-color: white;
     box-shadow: 3px 3px 14px 5px black;
 }
@@ -38,11 +51,13 @@ border-right: black 1px solid; /*Lägger en vägg som skiljer bilderna och texte
 }
 a:after{
     content: attr(title);
-    font-size: 24px;
+    font-size: 44px;
     display: block; /*Gör att texten hamnar på en egen rad och inte brevidbilden!*/
+    font-family: Journal;
+    text-align: center; /*Centrerar texten*/
 }
 a:link, a:visited { /*används för att kunna påverka texten..*/
-color: brown;
+color: rgb(130, 58, 136);
 text-decoration: none;
 }
 
