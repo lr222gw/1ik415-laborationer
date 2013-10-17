@@ -8,8 +8,13 @@ img{
     padding: 10px 10px 70px 10px;
     background-color: white;
 }
-
-
+.images {
+float: left;
+max-width: 70%;
+}
+#side {
+float: left;
+}
 
 
 
