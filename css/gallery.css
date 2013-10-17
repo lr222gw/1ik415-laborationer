@@ -27,21 +27,23 @@ a{
     display: block;
     float: left;
     padding: 10px 10px 20px 10px;
-    background-color: white;
+    background-color: rgb(248, 248, 248);
     box-shadow: 3px 3px 14px 5px black;
+    transition: 1s ease-in-out; /*Det kommer ta 1sek att göra denna övergång, den kommer göra det mjukt både in och ut*/
+    z-index: 1;
 }
 a:nth-child(2n){ /*Varannan bild ska vara -3deg*/ 
     transform: rotate(-3deg);
     -webkit-transform: rotate(-3deg);
     position: relative;
-    z-index: 5; /* de "slumpade" bilderna kommer ligga över de som inte är slumpade, då ser de mer utkastade ut..*/
+    z-index: 2; /* de "slumpade" bilderna kommer ligga över de som inte är slumpade, då ser de mer utkastade ut..*/
 }
 a:nth-child(5n){ /*var 5de bild kommer ligga lite längre ifrån de andra*/ 
     margin: 40px;
 }
 a:nth-child(3n){ /* Var tredje bild ligger nu högst upp*/ 
     position: relative;
-    z-index: 6;
+    z-index: 3;
 }
 .images {
 float: left;
@@ -60,6 +62,14 @@ a:after{
 a:link, a:visited { /*används för att kunna påverka texten..*/
 color: rgb(130, 58, 136);
 text-decoration: none;
+}
+a:hover {
+-webkit-transform: rotate(0deg) scale(2);
+transform: rotate(0deg) scale(2);
+z-index: 10;
+position: relative;
+box-shadow: 59px 69px 75px 7px black;
+background-color: white;
 }
 
 
