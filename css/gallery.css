@@ -19,6 +19,7 @@ img{
     /*ger bilderna specifika maxstorlekar..*/
     max-width: 230px;
     max-height: 300px;
+    border: 2px black solid; /*En ram runt bilderna som gör så att man lätt kan se var själva den vita paddingen börjar*/
 }
 a{
     transform: rotate(4deg); /*gör så att alla bilder roterar 4deg som standard..*/
