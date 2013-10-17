@@ -1,11 +1,37 @@
-img{
-max-width: 230px;
-max-height: 300px;
-border: black solid 1px;
-background-color: white;
-padding: 10px 10px 70px 10px;
 
-}
 body{
     background-color: rgb(141, 0, 0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*a{
+    max-width: 230px;
+    max-height: 300px;
+    border: black solid 1px;
+    background-color: white;
+    padding: 10px 10px 70px 10px;
+    margin: -7px 4px 40px 29px;
+}
+img{
+    max-width: 230px;
+    max-height: 300px;
+}
+a:nth-child(4n){
+    zoom: 2;
+    
+}
+*/
