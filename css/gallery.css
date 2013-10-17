@@ -2,7 +2,12 @@
 body{
     background-color: rgb(141, 0, 0);
 }
-
+img{
+    max-width: 230px;
+    max-height: 300px;
+    padding: 10px 10px 70px 10px;
+    background-color: white;
+}
 
 
 
