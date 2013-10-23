@@ -68,7 +68,7 @@ a:hover, a:focus { /*Genom att sätta detta till a:focus så kommer man kunna ta
 transform: rotate(0deg) scale(2);
 z-index: 10;
 position: relative;
-box-shadow: 59px 69px 75px 7px black;
+box-shadow: 59px 69px 75px 7px rgba(0, 0, 0, 0.78);
 background-color: white;
 -webkit-transform-origin: top left; /*Detta är ett snabbfix, så att bilderna i alla fall kan synas..*/
 transform-origin: top left;
